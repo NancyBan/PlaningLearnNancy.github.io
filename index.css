@@ -1,19 +1,41 @@
 *{
 	padding: 0px;
 	border: 0px;
+	text-decoration: none;
 }
 
 body{
 	background: #dcbbfc;
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	background: #222;
+	padding: 10px;
+	text-align-last: center;
+}
+
+div{
+	width: 10%;
+	display: inline-flex;
+}
+
+a{
+	font-family: system-ui;
+	color: white;
+	margin: auto;
 }
 
 h1{
-	font-family: Arial;
+	font-family: 'Gulzar', serif;
+	font-family: 'Libre Baskerville', serif;
 	text-align: center;
 	font-size: 4em;
 }
 
-div{
+#content{
+	width: auto;
 	background: white;
 	margin: 10px 17%;
 	padding: 25px 25px;
@@ -32,4 +54,36 @@ img{
 	width: 50%;
 	margin: 20px 25%;
 	border-radius: 50px;
+}
+
+footer{
+	background: #222;
+	display: inline-flex;
+	width: 100%;
+}
+
+footer #contact{
+	padding: 10px 1px 10px 10%;
+	width: 65%;
+	color: white;
+	font-family: system-ui;
+	display: block;
+	margin: 3px;
+}
+
+footer #contact div{
+	text-align: justify;
+	padding: 2px;
+	width: 100%;
+	margin: 10px;
+}
+
+footer div #icon{
+	display: inline-flex;
+	margin-right: 4px;
+}
+
+#divmap{
+	width: 30%;
+	padding: 15px;
 }
