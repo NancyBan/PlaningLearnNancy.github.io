@@ -1,0 +1,35 @@
+*{
+	padding: 0px;
+	border: 0px;
+}
+
+body{
+	background: #dcbbfc;
+}
+
+h1{
+	font-family: Arial;
+	text-align: center;
+	font-size: 4em;
+}
+
+div{
+	background: white;
+	margin: 10px 17%;
+	padding: 25px 25px;
+	border-radius: 40px;
+	border: black dashed 2px;
+}
+
+p{
+	text-align: justify;
+	font-size: 2em;
+	font-family: arial;
+	margin: 0px;
+}
+
+img{
+	width: 50%;
+	margin: 20px 25%;
+	border-radius: 50px;
+}
